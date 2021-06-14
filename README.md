@@ -1,2 +1,2 @@
 # Derek-Yong
-Personal Responsive Website
+Personal Portfolio Responsive Website
