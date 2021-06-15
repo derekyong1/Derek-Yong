@@ -1,6 +1,11 @@
 /* Global View (Desktop View) */
+
+body {
+    font-family: 'Asap', sans-serif;
+
+}
+
 .container {
-    background-color: blueviolet;
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -12,6 +17,14 @@
 .col {
     width: 30%;
     margin-bottom: 40px;
+    background-color: blueviolet;
+}
+
+.col p {
+    color: white;
+    font-size: 0.875rem;
+    padding: 20px 30px;
+    line-height: 1.25rem;
 }
 
 
@@ -25,9 +38,9 @@
     height: auto;
 }
 
-
-
-
+.col p::first-line {
+    font-weight: 700;
+}
 
 
 
