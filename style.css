@@ -14,12 +14,14 @@ body {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    padding-top: 140px;
 }
 
 .header-container {
     background-color: rgb(60, 60, 60);
     min-height: 100px;
-    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 header {
@@ -64,11 +66,17 @@ a{
 }
 
 .mybutton {
-    padding:11px 25px;
+    padding:10px 25px;
     margin-right: 20px;
     border: 2px solid white;
     position: relative;
+    margin-left: 20px;
     
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
@@ -84,11 +92,39 @@ a{
         display: block;
     }
 
+    .header-container {
+        position: relative;
+        
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        
+    }
+
+    .logo {
+        padding: 40px 0;
+    }
+
+    .mybutton {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 
 /* Mobile View */
-@media (max-width: 500px){ /*400px is real value (500px for testing purposes) */ 
+@media (max-width: 400px){ /*400px is real value (500px for testing purposes) */ 
 
     .col {
         width: 100%;
@@ -98,4 +134,5 @@ a{
         display: none;
     }
 
+    
 }
