@@ -79,6 +79,9 @@ a{
     font-size: 20px;
 }
 
+.mob-wrapper {
+    display: none;   
+}
 
 
 /* Tablet View */
@@ -101,9 +104,8 @@ a{
         padding-top: 40px;
     }
 
-    header {
-        display: block;
-        text-align: center;
+    nav {
+        display: none;
     }
 
     nav a {
@@ -118,6 +120,25 @@ a{
     .mybutton {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+    }
+
+    .mob-nav {
+        display: none;
+        position:absolute;
+        padding-top: 10px;
+    }
+
+    .navbutton {
+        display: block;
+        background-color: coral;
+        padding: 15px 30px;
+        margin-left: -70px;
+        text-align: center;
     }
 
 }
